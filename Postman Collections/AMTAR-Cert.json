@@ -1,0 +1,2641 @@
+{
+  "Name": "AMTAR-Cert",
+  "BaseUri": "https://cert.amstardmc.com/api",
+  "ServerConfiguration": {
+    "DefaultEnvironment": "production",
+    "DefaultServer": "Server 1",
+    "Environments": [
+      {
+        "Name": "production",
+        "Servers": [
+          {
+            "Name": "Server 1",
+            "Url": "https://cert.amstardmc.com/api"
+          }
+        ]
+      }
+    ],
+    "Parameters": []
+  },
+  "Description": "TODO: Add Description",
+  "Version": "1.0",
+  "AdditionalHeaders": [],
+  "Authentication": {
+    "Type": "None",
+    "AuthType": "None",
+    "Parameters": [],
+    "Scopes": []
+  },
+  "Endpoints": [
+    {
+      "Name": "/cart/addTransfer - One Way Arrival",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/cart/addTransfer",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "RequiredScopes": [],
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "CUN",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "airport_code",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "4O",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_airline_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2017-08-25",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_date",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "00:25:00",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_actual_time%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "4O",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_airline_code%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Interjet",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info[flight_airline_name]",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "25.08.2017",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_arrival_date%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "24.08.2017",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_departure_date%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "CUN",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_destination_code%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "CANCUN",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_destination_name%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "320",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_equip%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "6320",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_flight_num%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "23.08.2017+11:28",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_lastaccess%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "6320",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_num%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "MTY",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_origin_code%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "MONTERREY",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_origin_name%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "00:25:00",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_scheduled_time%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Scheduled",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_status%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_terminal%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Monterrey+(MTY)",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bfrom_name%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1503638700",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Btime%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Cancun+(CUN)",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bto_name%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "attqty1",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "0",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "attqty2",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "0",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "attqty3",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "USD",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "currency_code",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "26",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "destination_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "679",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "hotel_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "arr",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "service_type",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1279",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "transfer_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "http://www.amstardmc.com",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "Origin",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/cart/addTransfer - One Way Arrival",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+            },
+            {
+              "IsNull": false,
+              "Name": "airport_code",
+              "Value": "CUN"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_airline_id",
+              "Value": "4O"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_date",
+              "Value": "2017-08-25"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_actual_time%5D",
+              "Value": "00:25:00"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_airline_code%5D",
+              "Value": "4O"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info[flight_airline_name]",
+              "Value": "Interjet"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_arrival_date%5D",
+              "Value": "25.08.2017"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_departure_date%5D",
+              "Value": "24.08.2017"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_destination_code%5D",
+              "Value": "CUN"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_destination_name%5D",
+              "Value": "CANCUN"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_equip%5D",
+              "Value": "320"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_flight_num%5D",
+              "Value": "6320"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_lastaccess%5D",
+              "Value": "23.08.2017+11:28"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_num%5D",
+              "Value": "6320"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_origin_code%5D",
+              "Value": "MTY"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_origin_name%5D",
+              "Value": "MONTERREY"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_scheduled_time%5D",
+              "Value": "00:25:00"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_status%5D",
+              "Value": "Scheduled"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_terminal%5D",
+              "Value": "2"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bfrom_name%5D",
+              "Value": "Monterrey+(MTY)"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Btime%5D",
+              "Value": "1503638700"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bto_name%5D",
+              "Value": "Cancun+(CUN)"
+            },
+            {
+              "IsNull": false,
+              "Name": "attqty1",
+              "Value": "2"
+            },
+            {
+              "IsNull": false,
+              "Name": "attqty2",
+              "Value": "0"
+            },
+            {
+              "IsNull": false,
+              "Name": "attqty3",
+              "Value": "0"
+            },
+            {
+              "IsNull": false,
+              "Name": "currency_code",
+              "Value": "USD"
+            },
+            {
+              "IsNull": false,
+              "Name": "destination_id",
+              "Value": "26"
+            },
+            {
+              "IsNull": false,
+              "Name": "hotel_id",
+              "Value": "679"
+            },
+            {
+              "IsNull": false,
+              "Name": "service_type",
+              "Value": "arr"
+            },
+            {
+              "IsNull": false,
+              "Name": "transfer_id",
+              "Value": "1279"
+            },
+            {
+              "IsNull": false,
+              "Name": "api_version",
+              "Value": "1"
+            },
+            {
+              "IsNull": false,
+              "Name": "Origin",
+              "Value": "http://www.amstardmc.com"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
+    },
+    {
+      "Name": "/cart/addTransfer - Round Trip",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/cart/addTransfer",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "RequiredScopes": [],
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "CUN",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "airport_code",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "4O",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_airline_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2017-08-25",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_date",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "00:25:00",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_actual_time%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "4O",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_airline_code%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Interjet",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info[flight_airline_name]",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "25.08.2017",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_arrival_date%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "24.08.2017",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_departure_date%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "CUN",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_destination_code%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "CANCUN",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_destination_name%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "320",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_equip%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "6320",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_flight_num%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "23.08.2017+11:28",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_lastaccess%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "6320",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_num%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "MTY",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_origin_code%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "MONTERREY",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_origin_name%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "00:25:00",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_scheduled_time%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Scheduled",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_status%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bflight_terminal%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Monterrey+(MTY)",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bfrom_name%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1503638700",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Btime%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Cancun+(CUN)",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_flight_info%5Bto_name%5D",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "attqty1",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "0",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "attqty2",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "0",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "attqty3",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "USD",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "currency_code",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "26",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "destination_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "679",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "hotel_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "arr",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "service_type",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1279",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "transfer_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "http://www.amstardmc.com",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "Origin",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/cart/addTransfer - Round Trip",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+            },
+            {
+              "IsNull": false,
+              "Name": "airport_code",
+              "Value": "CUN"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_airline_id",
+              "Value": "4O"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_date",
+              "Value": "2017-08-25"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_actual_time%5D",
+              "Value": "00:25:00"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_airline_code%5D",
+              "Value": "4O"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info[flight_airline_name]",
+              "Value": "Interjet"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_arrival_date%5D",
+              "Value": "25.08.2017"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_departure_date%5D",
+              "Value": "24.08.2017"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_destination_code%5D",
+              "Value": "CUN"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_destination_name%5D",
+              "Value": "CANCUN"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_equip%5D",
+              "Value": "320"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_flight_num%5D",
+              "Value": "6320"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_lastaccess%5D",
+              "Value": "23.08.2017+11:28"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_num%5D",
+              "Value": "6320"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_origin_code%5D",
+              "Value": "MTY"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_origin_name%5D",
+              "Value": "MONTERREY"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_scheduled_time%5D",
+              "Value": "00:25:00"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_status%5D",
+              "Value": "Scheduled"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bflight_terminal%5D",
+              "Value": "2"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bfrom_name%5D",
+              "Value": "Monterrey+(MTY)"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Btime%5D",
+              "Value": "1503638700"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_flight_info%5Bto_name%5D",
+              "Value": "Cancun+(CUN)"
+            },
+            {
+              "IsNull": false,
+              "Name": "attqty1",
+              "Value": "2"
+            },
+            {
+              "IsNull": false,
+              "Name": "attqty2",
+              "Value": "0"
+            },
+            {
+              "IsNull": false,
+              "Name": "attqty3",
+              "Value": "0"
+            },
+            {
+              "IsNull": false,
+              "Name": "currency_code",
+              "Value": "USD"
+            },
+            {
+              "IsNull": false,
+              "Name": "destination_id",
+              "Value": "26"
+            },
+            {
+              "IsNull": false,
+              "Name": "hotel_id",
+              "Value": "679"
+            },
+            {
+              "IsNull": false,
+              "Name": "service_type",
+              "Value": "arr"
+            },
+            {
+              "IsNull": false,
+              "Name": "transfer_id",
+              "Value": "1279"
+            },
+            {
+              "IsNull": false,
+              "Name": "api_version",
+              "Value": "1"
+            },
+            {
+              "IsNull": false,
+              "Name": "Origin",
+              "Value": "http://www.amstardmc.com"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
+    },
+    {
+      "Name": "/tours/getTours",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/tours/getTours",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "RequiredScopes": [],
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Precision",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1.0",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Precision",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "product_ids",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Precision",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "destination_ids",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "http://www.amstardmc.com",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "Origin",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [],
+      "WrapBodyInObject": false
+    },
+    {
+      "Name": "/transfers/getTransferItemsAndSupplements",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/transfers/getTransferItemsAndSupplements",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "RequiredScopes": [],
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "79ed3c92725ffaf6cfb50de5c1e16723\t",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "CUN",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "airport_code",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "173",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "hotel_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1273",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "transfer_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "round",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "service_type",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "nattr1",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2017-09-30",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_date",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2017-10-05",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "departure_date",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "USD",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "currency_code",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "http://www.amstardmc.com",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "Origin",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/transfers/getTransferItemsAndSupplements",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "79ed3c92725ffaf6cfb50de5c1e16723\t"
+            },
+            {
+              "IsNull": false,
+              "Name": "airport_code",
+              "Value": "CUN"
+            },
+            {
+              "IsNull": false,
+              "Name": "hotel_id",
+              "Value": "173"
+            },
+            {
+              "IsNull": false,
+              "Name": "transfer_id",
+              "Value": "1273"
+            },
+            {
+              "IsNull": false,
+              "Name": "service_type",
+              "Value": "round"
+            },
+            {
+              "IsNull": false,
+              "Name": "nattr1",
+              "Value": "2"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_date",
+              "Value": "2017-09-30"
+            },
+            {
+              "IsNull": false,
+              "Name": "departure_date",
+              "Value": "2017-10-05"
+            },
+            {
+              "IsNull": false,
+              "Name": "currency_code",
+              "Value": "USD"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+            },
+            {
+              "IsNull": false,
+              "Name": "api_version",
+              "Value": "1"
+            },
+            {
+              "IsNull": false,
+              "Name": "Origin",
+              "Value": "http://www.amstardmc.com"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
+    },
+    {
+      "Name": "/transfers/getAirlines",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/transfers/getAirlines",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "RequiredScopes": [],
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "cun",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "airport_code",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "round",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "service_type",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2017-09-01",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_date",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2017-09-01",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "departure_date",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "20\n",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "destination_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "http://www.amstardmc.com",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "Origin",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/transfers/getAirlines",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+            },
+            {
+              "IsNull": false,
+              "Name": "airport_code",
+              "Value": "cun"
+            },
+            {
+              "IsNull": false,
+              "Name": "service_type",
+              "Value": "round"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_date",
+              "Value": "2017-09-01"
+            },
+            {
+              "IsNull": false,
+              "Name": "departure_date",
+              "Value": "2017-09-01"
+            },
+            {
+              "IsNull": false,
+              "Name": "destination_id",
+              "Value": "20\n"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+            },
+            {
+              "IsNull": false,
+              "Name": "api_version",
+              "Value": "1"
+            },
+            {
+              "IsNull": false,
+              "Name": "Origin",
+              "Value": "http://www.amstardmc.com"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
+    },
+    {
+      "Name": "/transfers/getFlights",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/transfers/getFlights",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "RequiredScopes": [],
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "cun",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "airport_code",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "round",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "service_type",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2017-09-01",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_date",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Y4",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "arrival_airline_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2017-09-01",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "departure_date",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "AA",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "departure_airline_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "20",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "destination_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "http://www.amstardmc.com",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "Origin",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/transfers/getFlights",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+            },
+            {
+              "IsNull": false,
+              "Name": "airport_code",
+              "Value": "cun"
+            },
+            {
+              "IsNull": false,
+              "Name": "service_type",
+              "Value": "round"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_date",
+              "Value": "2017-09-01"
+            },
+            {
+              "IsNull": false,
+              "Name": "arrival_airline_id",
+              "Value": "Y4"
+            },
+            {
+              "IsNull": false,
+              "Name": "departure_date",
+              "Value": "2017-09-01"
+            },
+            {
+              "IsNull": false,
+              "Name": "departure_airline_id",
+              "Value": "AA"
+            },
+            {
+              "IsNull": false,
+              "Name": "destination_id",
+              "Value": "20"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+            },
+            {
+              "IsNull": false,
+              "Name": "api_version",
+              "Value": "1"
+            },
+            {
+              "IsNull": false,
+              "Name": "Origin",
+              "Value": "http://www.amstardmc.com"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
+    },
+    {
+      "Name": "/transfers/getTransfersList",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/transfers/getTransfersList",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "RequiredScopes": [],
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "cun",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "airport_code",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "20\n",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "destination_id",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/transfers/getTransfersList",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+            },
+            {
+              "IsNull": false,
+              "Name": "airport_code",
+              "Value": "cun"
+            },
+            {
+              "IsNull": false,
+              "Name": "destination_id",
+              "Value": "20\n"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
+    },
+    {
+      "Name": "/cart/getCart",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/cart/getCart",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "RequiredScopes": [],
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "http://www.amstardmc.com",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "Origin",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/cart/getCart",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+            },
+            {
+              "IsNull": false,
+              "Name": "api_version",
+              "Value": "1"
+            },
+            {
+              "IsNull": false,
+              "Name": "Origin",
+              "Value": "http://www.amstardmc.com"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
+    },
+    {
+      "Name": "/cart/emptyCart",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/cart/emptyCart",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "RequiredScopes": [],
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890\n",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/cart/emptyCart",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890\n"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
+    }
+  ],
+  "CustomTypes": [],
+  "CodeGenSettings": {
+    "SynchronyMode": 0,
+    "ModelSerializationScheme": "Json",
+    "ArraySerialization": "Indexed",
+    "Nullify404": false,
+    "UseHttpMethodPrefix": true,
+    "UseModelPrefix": false,
+    "UseExceptionPrefix": true,
+    "UseEnumPrefix": true,
+    "UseControllerPrefix": true,
+    "UseConstructorsForConfig": false,
+    "Timeout": 0.0,
+    "AndroidUseAppManifest": false,
+    "iOSUseAppInfoPlist": false,
+    "iOSGenerateCoreData": false,
+    "CollapseParamsToArray": false,
+    "RunscopeEnabled": false,
+    "AndroidHttpClient": "UNIREST",
+    "ObjCHttpClient": "UNIREST",
+    "CSharpHttpClient": "UNIREST",
+    "NodeHttpClient": "NODE_REQUEST",
+    "JavaUsePropertiesConfig": false,
+    "PHPHttpClient": "UNIREST",
+    "EnablePHPComposerVersionString": false,
+    "EnableAdditionalModelProperties": false,
+    "PreserveParameterOrder": true,
+    "ValidateRequiredParameters": false,
+    "AppendContentHeaders": true,
+    "GenerateInterfaces": false,
+    "UseCommonSDKLibrary": false,
+    "ParameterArrayFormat": 2,
+    "SecurityProtocols": [
+      "Ssl3",
+      "Tls"
+    ],
+    "GenerateTravisConfig": false,
+    "GenerateCircleConfig": false,
+    "GenerateAppveyorConfig": false,
+    "GenerateJenkinsConfig": false,
+    "EnableLogging": false,
+    "EnableHttpCache": false,
+    "Retries": 0,
+    "RetryInterval": 1.0,
+    "GenerateAdvancedDocs": true,
+    "StoreTimezoneInformation": false,
+    "UnderscoreNumbers": true
+  },
+  "TestGenSettings": {
+    "Configuration": {},
+    "TestTimeout": 30,
+    "PrecisionDelta": 0.01
+  }
+}
