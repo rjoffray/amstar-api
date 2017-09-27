@@ -1775,7 +1775,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "20\n",
+          "Example": "20",
           "IsArray": false,
           "IsMap": false,
           "Name": "destination_id",
@@ -1861,7 +1861,7 @@
             {
               "IsNull": false,
               "Name": "destination_id",
-              "Value": "20\n"
+              "Value": "20"
             },
             {
               "IsNull": false,
@@ -2213,7 +2213,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "20\n",
+          "Example": "20",
           "IsArray": false,
           "IsMap": false,
           "Name": "destination_id",
@@ -2247,7 +2247,7 @@
             {
               "IsNull": false,
               "Name": "destination_id",
-              "Value": "20\n"
+              "Value": "20"
             }
           ],
           "ExpectedStatus": "200",
@@ -2423,7 +2423,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890\n",
+          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
           "IsArray": false,
           "IsMap": false,
           "Name": "session_id",
@@ -2447,7 +2447,7 @@
             {
               "IsNull": false,
               "Name": "session_id",
-              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890\n"
+              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
             }
           ],
           "ExpectedStatus": "200",
