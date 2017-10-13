@@ -47,7 +47,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
@@ -736,7 +735,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
@@ -2052,7 +2050,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
@@ -3197,7 +3194,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
@@ -3468,7 +3464,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
@@ -3682,7 +3677,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
@@ -3934,7 +3928,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
@@ -4053,7 +4046,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
@@ -4135,7 +4127,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
@@ -4254,7 +4245,6 @@
       "HasOptionalQueryParams": false,
       "HasOptionalFieldParams": false,
       "CollectParameters": false,
-      "RequiredScopes": [],
       "Parameters": [
         {
           "ParamFormat": "Query",
