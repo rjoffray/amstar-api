@@ -4304,6 +4304,124 @@
         }
       ],
       "WrapBodyInObject": false
+    },
+    {
+      "Name": "/tours/getToursList",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/tours/getToursList",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Precision",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1.0",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "20",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "destination_id",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/tours/getToursList",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "api_version",
+              "Value": "1.0"
+            },
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1"
+            },
+            {
+              "IsNull": false,
+              "Name": "destination_id",
+              "Value": "20"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
     }
   ],
   "CustomTypes": [],
