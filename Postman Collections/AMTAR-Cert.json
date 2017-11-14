@@ -55,7 +55,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9",
           "IsArray": false,
           "IsMap": false,
           "Name": "user_id",
@@ -69,7 +69,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "Example": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
           "IsArray": false,
           "IsMap": false,
           "Name": "session_id",
@@ -536,12 +536,12 @@
             {
               "IsNull": false,
               "Name": "user_id",
-              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "IsNull": false,
               "Name": "session_id",
-              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+              "Value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "IsNull": false,
@@ -2058,7 +2058,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9",
           "IsArray": false,
           "IsMap": false,
           "Name": "user_id",
@@ -2072,7 +2072,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "Example": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
           "IsArray": false,
           "IsMap": false,
           "Name": "session_id",
@@ -2875,12 +2875,12 @@
             {
               "IsNull": false,
               "Name": "user_id",
-              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "IsNull": false,
               "Name": "session_id",
-              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+              "Value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "IsNull": false,
@@ -3202,7 +3202,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "79ed3c92725ffaf6cfb50de5c1e16723\t",
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9\t",
           "IsArray": false,
           "IsMap": false,
           "Name": "user_id",
@@ -3328,7 +3328,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "Example": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
           "IsArray": false,
           "IsMap": false,
           "Name": "session_id",
@@ -3375,7 +3375,7 @@
             {
               "IsNull": false,
               "Name": "user_id",
-              "Value": "79ed3c92725ffaf6cfb50de5c1e16723\t"
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9\t"
             },
             {
               "IsNull": false,
@@ -3420,7 +3420,7 @@
             {
               "IsNull": false,
               "Name": "session_id",
-              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+              "Value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "IsNull": false,
@@ -3472,7 +3472,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9",
           "IsArray": false,
           "IsMap": false,
           "Name": "user_id",
@@ -3556,7 +3556,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "Example": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
           "IsArray": false,
           "IsMap": false,
           "Name": "session_id",
@@ -3603,7 +3603,7 @@
             {
               "IsNull": false,
               "Name": "user_id",
-              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "IsNull": false,
@@ -3633,7 +3633,7 @@
             {
               "IsNull": false,
               "Name": "session_id",
-              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+              "Value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "IsNull": false,
@@ -3685,7 +3685,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9",
           "IsArray": false,
           "IsMap": false,
           "Name": "user_id",
@@ -3797,7 +3797,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "Example": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
           "IsArray": false,
           "IsMap": false,
           "Name": "session_id",
@@ -3844,7 +3844,7 @@
             {
               "IsNull": false,
               "Name": "user_id",
-              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "IsNull": false,
@@ -3884,7 +3884,7 @@
             {
               "IsNull": false,
               "Name": "session_id",
-              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+              "Value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "IsNull": false,
@@ -3936,7 +3936,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9",
           "IsArray": false,
           "IsMap": false,
           "Name": "user_id",
@@ -3950,7 +3950,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "Example": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
           "IsArray": false,
           "IsMap": false,
           "Name": "session_id",
@@ -3997,12 +3997,12 @@
             {
               "IsNull": false,
               "Name": "user_id",
-              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "IsNull": false,
               "Name": "session_id",
-              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+              "Value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "IsNull": false,
@@ -4253,7 +4253,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "79ed3c92725ffaf6cfb50de5c1e16723",
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9",
           "IsArray": false,
           "IsMap": false,
           "Name": "user_id",
@@ -4267,7 +4267,7 @@
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
-          "Example": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
+          "Example": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
           "IsArray": false,
           "IsMap": false,
           "Name": "session_id",
@@ -4286,12 +4286,12 @@
             {
               "IsNull": false,
               "Name": "user_id",
-              "Value": "79ed3c92725ffaf6cfb50de5c1e16723"
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "IsNull": false,
               "Name": "session_id",
-              "Value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
+              "Value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             }
           ],
           "ExpectedStatus": "200",
@@ -4410,6 +4410,333 @@
               "IsNull": false,
               "Name": "destination_id",
               "Value": "20"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
+    },
+    {
+      "Name": "/tours/updateItemTotal",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/tours/updateItemTotal",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Precision",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1.0",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "api_version",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "20",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "destination_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "51",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "hotel_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1285",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "product_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "Coco Bongo",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "product_name",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "DateTime",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2017-03-29",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "service_date",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "355412",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "pickup_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "18000",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "duration_time",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "2",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "attr_qties[1286][161]",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "attr_qties[1286][162]",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "attr_qties[1286][164]",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "suppl_attr_qties[2861][1239]",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "USD",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "currency_code",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "/tours/updateItemTotal",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "api_version",
+              "Value": "1.0"
+            },
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
+            },
+            {
+              "IsNull": false,
+              "Name": "destination_id",
+              "Value": "20"
+            },
+            {
+              "IsNull": false,
+              "Name": "hotel_id",
+              "Value": "51"
+            },
+            {
+              "IsNull": false,
+              "Name": "product_id",
+              "Value": "1285"
+            },
+            {
+              "IsNull": false,
+              "Name": "product_name",
+              "Value": "Coco Bongo"
+            },
+            {
+              "IsNull": false,
+              "Name": "service_date",
+              "Value": "2017-03-29"
+            },
+            {
+              "IsNull": false,
+              "Name": "pickup_id",
+              "Value": "355412"
+            },
+            {
+              "IsNull": false,
+              "Name": "duration_time",
+              "Value": "18000"
+            },
+            {
+              "IsNull": false,
+              "Name": "attr_qties[1286][161]",
+              "Value": "2"
+            },
+            {
+              "IsNull": false,
+              "Name": "attr_qties[1286][162]",
+              "Value": "1"
+            },
+            {
+              "IsNull": false,
+              "Name": "attr_qties[1286][164]",
+              "Value": "1"
+            },
+            {
+              "IsNull": false,
+              "Name": "suppl_attr_qties[2861][1239]",
+              "Value": "1"
+            },
+            {
+              "IsNull": false,
+              "Name": "currency_code",
+              "Value": "USD"
             }
           ],
           "ExpectedStatus": "200",
