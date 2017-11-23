@@ -29,7 +29,7 @@
   "Endpoints": [
     {
       "Name": "/cart/addTransfer - One Way Arrival",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -529,7 +529,7 @@
       "TestCases": [
         {
           "Name": "/cart/addTransfer - One Way Arrival",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -717,7 +717,7 @@
     },
     {
       "Name": "/cart/addTransfer - Round Trip",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -1679,7 +1679,7 @@
       "TestCases": [
         {
           "Name": "/cart/addTransfer - Round Trip",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -2032,7 +2032,7 @@
     },
     {
       "Name": "cart/addTransfer/ - with Suppliments",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -2868,7 +2868,7 @@
       "TestCases": [
         {
           "Name": "cart/addTransfer/ - with Suppliments",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -3176,7 +3176,7 @@
     },
     {
       "Name": "/transfers/getTransferItemsAndSupplements",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -3368,7 +3368,7 @@
       "TestCases": [
         {
           "Name": "/transfers/getTransferItemsAndSupplements",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -3446,7 +3446,7 @@
     },
     {
       "Name": "/transfers/getAirlines",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -3596,7 +3596,7 @@
       "TestCases": [
         {
           "Name": "/transfers/getAirlines",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -3659,7 +3659,7 @@
     },
     {
       "Name": "/transfers/getFlights",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -3837,7 +3837,7 @@
       "TestCases": [
         {
           "Name": "/transfers/getFlights",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -3910,7 +3910,7 @@
     },
     {
       "Name": "/transfers/getTransfersList",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -3990,7 +3990,7 @@
       "TestCases": [
         {
           "Name": "/transfers/getTransfersList",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4028,7 +4028,7 @@
     },
     {
       "Name": "/tours/getTours",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -4109,7 +4109,7 @@
     },
     {
       "Name": "/cart/getCart",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -4189,7 +4189,7 @@
       "TestCases": [
         {
           "Name": "/cart/getCart",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4227,7 +4227,7 @@
     },
     {
       "Name": "/cart/emptyCart",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -4279,7 +4279,7 @@
       "TestCases": [
         {
           "Name": "/cart/emptyCart",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4307,7 +4307,7 @@
     },
     {
       "Name": "/tours/getToursList",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -4387,7 +4387,7 @@
       "TestCases": [
         {
           "Name": "/tours/getToursList",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4425,7 +4425,7 @@
     },
     {
       "Name": "/tours/updateItemTotal",
-      "Description": "TODO: Add Description",
+      "Description": "",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": false,
@@ -4659,7 +4659,7 @@
       "TestCases": [
         {
           "Name": "/tours/updateItemTotal",
-          "Description": "TODO: Add Description",
+          "Description": "",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
