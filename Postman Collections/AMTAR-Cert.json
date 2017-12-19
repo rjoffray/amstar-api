@@ -4848,6 +4848,105 @@
         }
       ],
       "WrapBodyInObject": false
+    },
+    {
+      "Name": "transfers/getHotels",
+      "Description": "TODO: Add Description",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": false,
+      "Route": "/transfers/getHotels",
+      "Response": {
+        "Optional": false,
+        "Type": "Void",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "Response"
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "Parameters": [
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "90b3a2f5cd5c6010c069027a72dae5f9",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "user_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "String",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "session_id",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
+          "ParamFormat": "Query",
+          "Optional": false,
+          "Type": "Number",
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "1",
+          "IsArray": false,
+          "IsMap": false,
+          "Name": "site_id",
+          "Description": "",
+          "DefaultValue": ""
+        }
+      ],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "transfers/getHotels",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
+            },
+            {
+              "IsNull": false,
+              "Name": "site_id",
+              "Value": "1"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false
     }
   ],
   "CustomTypes": [],
