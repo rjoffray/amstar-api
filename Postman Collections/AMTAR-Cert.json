@@ -24,7 +24,8 @@
     "Type": "None",
     "AuthType": "None",
     "Parameters": [],
-    "Scopes": []
+    "Scopes": [],
+    "ParamFormats": {}
   },
   "Endpoints": [
     {
@@ -4283,10 +4284,11 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "Precision",
+          "Type": "String",
           "Constant": false,
           "IsStream": false,
           "IsAttribute": false,
+          "Example": "1285,1500,2109,1799,4918,1670",
           "Nullable": false,
           "IsArray": false,
           "IsMap": false,
@@ -4311,7 +4313,43 @@
         }
       ],
       "Errors": [],
-      "TestCases": [],
+      "TestCases": [
+        {
+          "Name": "/tours/getTours",
+          "Description": "TODO: Add Description",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [
+            {
+              "IsNull": false,
+              "Name": "api_version",
+              "Value": "1.0"
+            },
+            {
+              "IsNull": false,
+              "Name": "user_id",
+              "Value": "90b3a2f5cd5c6010c069027a72dae5f9"
+            },
+            {
+              "IsNull": false,
+              "Name": "product_ids",
+              "Value": "1285,1500,2109,1799,4918,1670"
+            },
+            {
+              "IsNull": false,
+              "Name": "session_id",
+              "Value": "24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1"
+            }
+          ],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
       "WrapBodyInObject": false
     },
     {
@@ -5240,7 +5278,8 @@
     "GenerateAdvancedDocs": true,
     "StoreTimezoneInformation": false,
     "UnderscoreNumbers": true,
-    "UseSingletonPattern": true
+    "UseSingletonPattern": true,
+    "IgnoreIfNullJson": false
   },
   "Errors": [],
   "TestGenSettings": {
