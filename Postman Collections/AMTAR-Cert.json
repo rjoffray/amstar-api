@@ -6,8 +6,8 @@
   },
   "item": [
     {
-      "_postman_id": "367649-fca7a985-bbf9-eabf-d3f2-d8a9d9473506",
       "name": "/cart/addTransfer - One Way Arrival",
+      "_postman_id": "367649-fca7a985-bbf9-eabf-d3f2-d8a9d9473506",
       "request": {
         "method": "GET",
         "header": [
@@ -20,7 +20,10 @@
             "value": "http://www.amstardmc.com"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/cart/addTransfer/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e&airport_code=CUN&arrival_airline_id=4O&arrival_date=2017-08-25&arrival_flight_info%5Bflight_actual_time%5D=00:25:00&arrival_flight_info%5Bflight_airline_code%5D=4O&arrival_flight_info[flight_airline_name]=Interjet&arrival_flight_info%5Bflight_arrival_date%5D=25.08.2017&arrival_flight_info%5Bflight_departure_date%5D=24.08.2017&arrival_flight_info%5Bflight_destination_code%5D=CUN&arrival_flight_info%5Bflight_destination_name%5D=CANCUN&arrival_flight_info%5Bflight_equip%5D=320&arrival_flight_info%5Bflight_flight_num%5D=6320&arrival_flight_info%5Bflight_lastaccess%5D=23.08.2017+11:28&arrival_flight_info%5Bflight_num%5D=6320&arrival_flight_info%5Bflight_origin_code%5D=MTY&arrival_flight_info%5Bflight_origin_name%5D=MONTERREY&arrival_flight_info%5Bflight_scheduled_time%5D=00:25:00&arrival_flight_info%5Bflight_status%5D=Scheduled&arrival_flight_info%5Bflight_terminal%5D=2&arrival_flight_info%5Bfrom_name%5D=Monterrey+(MTY)&arrival_flight_info%5Btime%5D=1503638700&arrival_flight_info%5Bto_name%5D=Cancun+(CUN)&attqty1=2&attqty2=0&attqty3=0&currency_code=USD&destination_id=26&hotel_id=679&service_type=arr&transfer_id=1279",
           "protocol": "https",
@@ -38,163 +41,131 @@
           "query": [
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "session_id",
-              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
-              "equals": true
+              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "key": "airport_code",
-              "value": "CUN",
-              "equals": true
+              "value": "CUN"
             },
             {
               "key": "arrival_airline_id",
-              "value": "4O",
-              "equals": true
+              "value": "4O"
             },
             {
               "key": "arrival_date",
-              "value": "2017-08-25",
-              "equals": true
+              "value": "2017-08-25"
             },
             {
               "key": "arrival_flight_info%5Bflight_actual_time%5D",
-              "value": "00:25:00",
-              "equals": true
+              "value": "00:25:00"
             },
             {
               "key": "arrival_flight_info%5Bflight_airline_code%5D",
-              "value": "4O",
-              "equals": true
+              "value": "4O"
             },
             {
               "key": "arrival_flight_info[flight_airline_name]",
-              "value": "Interjet",
-              "equals": true
+              "value": "Interjet"
             },
             {
               "key": "arrival_flight_info%5Bflight_arrival_date%5D",
-              "value": "25.08.2017",
-              "equals": true
+              "value": "25.08.2017"
             },
             {
               "key": "arrival_flight_info%5Bflight_departure_date%5D",
-              "value": "24.08.2017",
-              "equals": true
+              "value": "24.08.2017"
             },
             {
               "key": "arrival_flight_info%5Bflight_destination_code%5D",
-              "value": "CUN",
-              "equals": true
+              "value": "CUN"
             },
             {
               "key": "arrival_flight_info%5Bflight_destination_name%5D",
-              "value": "CANCUN",
-              "equals": true
+              "value": "CANCUN"
             },
             {
               "key": "arrival_flight_info%5Bflight_equip%5D",
-              "value": "320",
-              "equals": true
+              "value": "320"
             },
             {
               "key": "arrival_flight_info%5Bflight_flight_num%5D",
-              "value": "6320",
-              "equals": true
+              "value": "6320"
             },
             {
               "key": "arrival_flight_info%5Bflight_lastaccess%5D",
-              "value": "23.08.2017+11:28",
-              "equals": true
+              "value": "23.08.2017+11:28"
             },
             {
               "key": "arrival_flight_info%5Bflight_num%5D",
-              "value": "6320",
-              "equals": true
+              "value": "6320"
             },
             {
               "key": "arrival_flight_info%5Bflight_origin_code%5D",
-              "value": "MTY",
-              "equals": true
+              "value": "MTY"
             },
             {
               "key": "arrival_flight_info%5Bflight_origin_name%5D",
-              "value": "MONTERREY",
-              "equals": true
+              "value": "MONTERREY"
             },
             {
               "key": "arrival_flight_info%5Bflight_scheduled_time%5D",
-              "value": "00:25:00",
-              "equals": true
+              "value": "00:25:00"
             },
             {
               "key": "arrival_flight_info%5Bflight_status%5D",
-              "value": "Scheduled",
-              "equals": true
+              "value": "Scheduled"
             },
             {
               "key": "arrival_flight_info%5Bflight_terminal%5D",
-              "value": "2",
-              "equals": true
+              "value": "2"
             },
             {
               "key": "arrival_flight_info%5Bfrom_name%5D",
-              "value": "Monterrey+(MTY)",
-              "equals": true
+              "value": "Monterrey+(MTY)"
             },
             {
               "key": "arrival_flight_info%5Btime%5D",
-              "value": "1503638700",
-              "equals": true
+              "value": "1503638700"
             },
             {
               "key": "arrival_flight_info%5Bto_name%5D",
-              "value": "Cancun+(CUN)",
-              "equals": true
+              "value": "Cancun+(CUN)"
             },
             {
               "key": "attqty1",
-              "value": "2",
-              "equals": true
+              "value": "2"
             },
             {
               "key": "attqty2",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "attqty3",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "currency_code",
-              "value": "USD",
-              "equals": true
+              "value": "USD"
             },
             {
               "key": "destination_id",
-              "value": "26",
-              "equals": true
+              "value": "26"
             },
             {
               "key": "hotel_id",
-              "value": "679",
-              "equals": true
+              "value": "679"
             },
             {
               "key": "service_type",
-              "value": "arr",
-              "equals": true
+              "value": "arr"
             },
             {
               "key": "transfer_id",
-              "value": "1279",
-              "equals": true
+              "value": "1279"
             }
           ]
         }
@@ -202,8 +173,8 @@
       "response": []
     },
     {
-      "_postman_id": "367649-b4019859-3d9c-3195-1cd4-1103d8368408",
       "name": "/cart/addTransfer - Round Trip",
+      "_postman_id": "367649-b4019859-3d9c-3195-1cd4-1103d8368408",
       "request": {
         "method": "GET",
         "header": [
@@ -216,7 +187,10 @@
             "value": "http://www.amstardmc.com"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/cart/addTransfer/?api_version=1.0&user_id=90b3a2f5cd5c6010c069027a72dae5f9&airport_code=CUN&arrival_airline_id=AA&arrival_date=2017-10-20&arrival_flight_info[flight_actual_time]=15:50:00&arrival_flight_info[flight_airline_code]=AA&arrival_flight_info[flight_airline_name]=American Airlines&arrival_flight_info[flight_arrival_date]=20.10.2017&arrival_flight_info[flight_departure_date]=20.10.2017&arrival_flight_info[flight_destination_code]=CUN&arrival_flight_info[flight_destination_name]=CANCUN&arrival_flight_info[flight_equip]=738&arrival_flight_info[flight_flight_num]=158&arrival_flight_info[flight_lastaccess]=06.10.2017 06:45&arrival_flight_info[flight_num]=158&arrival_flight_info[flight_origin_code]=MIA&arrival_flight_info[flight_origin_name]=MIAMI&arrival_flight_info[flight_scheduled_time]=15:50:00&arrival_flight_info[flight_status]=Scheduled&arrival_flight_info[flight_terminal]=3&arrival_flight_info[from_name]=Miami (MIA)&arrival_flight_info[time]=1508532600&arrival_flight_info[to_name]=Cancun (CUN)&attqty1=2&attqty2=0&attqty3=0&currency_code=USD&departure_airline_id=AA&departure_date=2017-11-07&departure_flight_info[flight_actual_time]=17:49:00&departure_flight_info[flight_airline_code]=AA&departure_flight_info[flight_airline_name]=American Airlines&departure_flight_info[flight_arrival_date]=07.11.2017&departure_flight_info[flight_departure_date]=07.11.2017&departure_flight_info[flight_destination_code]=MIA&departure_flight_info[flight_destination_name]=MIAMI&departure_flight_info[flight_equip]=738&departure_flight_info[flight_flight_num]=158&departure_flight_info[flight_lastaccess]=06.10.2017 06:45&departure_flight_info[flight_num]=158&departure_flight_info[flight_origin_code]=CUN&departure_flight_info[flight_origin_name]=CANCUN&departure_flight_info[flight_scheduled_time]=17:49:00&departure_flight_info[flight_status]=Scheduled&departure_flight_info[flight_terminal]=3&departure_flight_info[from_name]=Cancun (CUN)&departure_flight_info[time]=1510098540&departure_flight_info[to_name]=Miami (MIA)&departure_pickup_time=48600&destination_id=26&hotel_id=679&service_type=round&session_id=24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1&suppl_attr_qties[arr][5981][3811]=1&suppl_attr_qties[arr][5983][3812]=1&suppl_attr_qties[arr][5989][3816]=0&suppl_attr_qties[arr][5990][3817]=0&suppl_attr_qties[arr][5990][5045]=1&suppl_attr_qties[dep][5981][3811]=1&suppl_attr_qties[dep][5983][3812]=0&suppl_attr_qties[dep][5989][3816]=0&suppl_attr_qties[dep][5990][3817]=0&suppl_attr_qties[dep][5990][5045]=1&transfer_id=1273",
           "protocol": "https",
@@ -234,328 +208,263 @@
           "query": [
             {
               "key": "api_version",
-              "value": "1.0",
-              "equals": true
+              "value": "1.0"
             },
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "airport_code",
-              "value": "CUN",
-              "equals": true
+              "value": "CUN"
             },
             {
               "key": "arrival_airline_id",
-              "value": "AA",
-              "equals": true
+              "value": "AA"
             },
             {
               "key": "arrival_date",
-              "value": "2017-10-20",
-              "equals": true
+              "value": "2017-10-20"
             },
             {
               "key": "arrival_flight_info[flight_actual_time]",
-              "value": "15:50:00",
-              "equals": true
+              "value": "15:50:00"
             },
             {
               "key": "arrival_flight_info[flight_airline_code]",
-              "value": "AA",
-              "equals": true
+              "value": "AA"
             },
             {
               "key": "arrival_flight_info[flight_airline_name]",
-              "value": "American Airlines",
-              "equals": true
+              "value": "American Airlines"
             },
             {
               "key": "arrival_flight_info[flight_arrival_date]",
-              "value": "20.10.2017",
-              "equals": true
+              "value": "20.10.2017"
             },
             {
               "key": "arrival_flight_info[flight_departure_date]",
-              "value": "20.10.2017",
-              "equals": true
+              "value": "20.10.2017"
             },
             {
               "key": "arrival_flight_info[flight_destination_code]",
-              "value": "CUN",
-              "equals": true
+              "value": "CUN"
             },
             {
               "key": "arrival_flight_info[flight_destination_name]",
-              "value": "CANCUN",
-              "equals": true
+              "value": "CANCUN"
             },
             {
               "key": "arrival_flight_info[flight_equip]",
-              "value": "738",
-              "equals": true
+              "value": "738"
             },
             {
               "key": "arrival_flight_info[flight_flight_num]",
-              "value": "158",
-              "equals": true
+              "value": "158"
             },
             {
               "key": "arrival_flight_info[flight_lastaccess]",
-              "value": "06.10.2017 06:45",
-              "equals": true
+              "value": "06.10.2017 06:45"
             },
             {
               "key": "arrival_flight_info[flight_num]",
-              "value": "158",
-              "equals": true
+              "value": "158"
             },
             {
               "key": "arrival_flight_info[flight_origin_code]",
-              "value": "MIA",
-              "equals": true
+              "value": "MIA"
             },
             {
               "key": "arrival_flight_info[flight_origin_name]",
-              "value": "MIAMI",
-              "equals": true
+              "value": "MIAMI"
             },
             {
               "key": "arrival_flight_info[flight_scheduled_time]",
-              "value": "15:50:00",
-              "equals": true
+              "value": "15:50:00"
             },
             {
               "key": "arrival_flight_info[flight_status]",
-              "value": "Scheduled",
-              "equals": true
+              "value": "Scheduled"
             },
             {
               "key": "arrival_flight_info[flight_terminal]",
-              "value": "3",
-              "equals": true
+              "value": "3"
             },
             {
               "key": "arrival_flight_info[from_name]",
-              "value": "Miami (MIA)",
-              "equals": true
+              "value": "Miami (MIA)"
             },
             {
               "key": "arrival_flight_info[time]",
-              "value": "1508532600",
-              "equals": true
+              "value": "1508532600"
             },
             {
               "key": "arrival_flight_info[to_name]",
-              "value": "Cancun (CUN)",
-              "equals": true
+              "value": "Cancun (CUN)"
             },
             {
               "key": "attqty1",
-              "value": "2",
-              "equals": true
+              "value": "2"
             },
             {
               "key": "attqty2",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "attqty3",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "currency_code",
-              "value": "USD",
-              "equals": true
+              "value": "USD"
             },
             {
               "key": "departure_airline_id",
-              "value": "AA",
-              "equals": true
+              "value": "AA"
             },
             {
               "key": "departure_date",
-              "value": "2017-11-07",
-              "equals": true
+              "value": "2017-11-07"
             },
             {
               "key": "departure_flight_info[flight_actual_time]",
-              "value": "17:49:00",
-              "equals": true
+              "value": "17:49:00"
             },
             {
               "key": "departure_flight_info[flight_airline_code]",
-              "value": "AA",
-              "equals": true
+              "value": "AA"
             },
             {
               "key": "departure_flight_info[flight_airline_name]",
-              "value": "American Airlines",
-              "equals": true
+              "value": "American Airlines"
             },
             {
               "key": "departure_flight_info[flight_arrival_date]",
-              "value": "07.11.2017",
-              "equals": true
+              "value": "07.11.2017"
             },
             {
               "key": "departure_flight_info[flight_departure_date]",
-              "value": "07.11.2017",
-              "equals": true
+              "value": "07.11.2017"
             },
             {
               "key": "departure_flight_info[flight_destination_code]",
-              "value": "MIA",
-              "equals": true
+              "value": "MIA"
             },
             {
               "key": "departure_flight_info[flight_destination_name]",
-              "value": "MIAMI",
-              "equals": true
+              "value": "MIAMI"
             },
             {
               "key": "departure_flight_info[flight_equip]",
-              "value": "738",
-              "equals": true
+              "value": "738"
             },
             {
               "key": "departure_flight_info[flight_flight_num]",
-              "value": "158",
-              "equals": true
+              "value": "158"
             },
             {
               "key": "departure_flight_info[flight_lastaccess]",
-              "value": "06.10.2017 06:45",
-              "equals": true
+              "value": "06.10.2017 06:45"
             },
             {
               "key": "departure_flight_info[flight_num]",
-              "value": "158",
-              "equals": true
+              "value": "158"
             },
             {
               "key": "departure_flight_info[flight_origin_code]",
-              "value": "CUN",
-              "equals": true
+              "value": "CUN"
             },
             {
               "key": "departure_flight_info[flight_origin_name]",
-              "value": "CANCUN",
-              "equals": true
+              "value": "CANCUN"
             },
             {
               "key": "departure_flight_info[flight_scheduled_time]",
-              "value": "17:49:00",
-              "equals": true
+              "value": "17:49:00"
             },
             {
               "key": "departure_flight_info[flight_status]",
-              "value": "Scheduled",
-              "equals": true
+              "value": "Scheduled"
             },
             {
               "key": "departure_flight_info[flight_terminal]",
-              "value": "3",
-              "equals": true
+              "value": "3"
             },
             {
               "key": "departure_flight_info[from_name]",
-              "value": "Cancun (CUN)",
-              "equals": true
+              "value": "Cancun (CUN)"
             },
             {
               "key": "departure_flight_info[time]",
-              "value": "1510098540",
-              "equals": true
+              "value": "1510098540"
             },
             {
               "key": "departure_flight_info[to_name]",
-              "value": "Miami (MIA)",
-              "equals": true
+              "value": "Miami (MIA)"
             },
             {
               "key": "departure_pickup_time",
-              "value": "48600",
-              "equals": true
+              "value": "48600"
             },
             {
               "key": "destination_id",
-              "value": "26",
-              "equals": true
+              "value": "26"
             },
             {
               "key": "hotel_id",
-              "value": "679",
-              "equals": true
+              "value": "679"
             },
             {
               "key": "service_type",
-              "value": "round",
-              "equals": true
+              "value": "round"
             },
             {
               "key": "session_id",
-              "value": "24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1",
-              "equals": true
+              "value": "24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1"
             },
             {
               "key": "suppl_attr_qties[arr][5981][3811]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "suppl_attr_qties[arr][5983][3812]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "suppl_attr_qties[arr][5989][3816]",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "suppl_attr_qties[arr][5990][3817]",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "suppl_attr_qties[arr][5990][5045]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "suppl_attr_qties[dep][5981][3811]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "suppl_attr_qties[dep][5983][3812]",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "suppl_attr_qties[dep][5989][3816]",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "suppl_attr_qties[dep][5990][3817]",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "suppl_attr_qties[dep][5990][5045]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "transfer_id",
-              "value": "1273",
-              "equals": true
+              "value": "1273"
             }
           ]
         }
@@ -563,12 +472,15 @@
       "response": []
     },
     {
-      "_postman_id": "367649-c49bad95-dbac-9cb1-8be6-5a502f56c069",
       "name": "cart/addTransfer/ - with Suppliments",
+      "_postman_id": "367649-c49bad95-dbac-9cb1-8be6-5a502f56c069",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/cart/addTransfer/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e&airport_code=PUJ&hotel_id=417&transfer_id=1744&service_type=round&arrival_date=2017-08-22&departure_date=2017-08-28&attqty1=1&attqty2=0&attqty3=0&arrival_airline_id=AA&arrival_flight_num=158&arrival_flight_info[flight_origin_code]=DFW&arrival_flight_info[flight_origin_name]=DALLAS-FORT WORTH&arrival_flight_info[flight_destination_code]=LIR&arrival_flight_info[flight_destination_name]=Liberia&arrival_flight_info[flight_departure_date]=22.07.2017&arrival_flight_info[flight_arrival_date]=22.07.2017&arrival_flight_info[flight_airline_code]=AA&arrival_flight_info[flight_airline_name]=American Airlines&arrival_flight_info[flight_flight_num]=2451&arrival_flight_info[flight_scheduled_time]=13:57:00&arrival_flight_info[flight_actual_time]=13:57:00&arrival_flight_info[flight_terminal]=3&arrival_flight_info[flight_status]=Scheduled&arrival_flight_info[flight_equip]=738&arrival_flight_info[flight_lastaccess]=07.06.2017 10:14&arrival_flight_info[from_name]=Dallas-Fort Worth (DFW)&arrival_flight_info[to_name]=Liberia (LIR)&arrival_flight_info[time]=1499540220&departure_airline_id=LA&departure_flight_num=2451&departure_pickup_time=83400&departure_flight_info[flight_origin_code]=PUJ&departure_flight_info[flight_origin_name]=PUNTA CANA&departure_flight_info[flight_destination_code]=LIM&departure_flight_info[flight_destination_name]=LIMA&departure_flight_info[flight_departure_date]=28.07.2017&departure_flight_info[flight_arrival_date]=28.07.2017&departure_flight_info[flight_airline_code]=LA&departure_flight_info[flight_airline_name]=American Airlines&departure_flight_info[flight_flight_num]=2451&departure_flight_info[flight_scheduled_time]=01:30:00&departure_flight_info[flight_actual_time]=01:30:00&departure_flight_info[flight_terminal]=B&departure_flight_info[flight_status]=Scheduled&departure_flight_info[flight_equip]=319&departure_flight_info[flight_lastaccess]=07.06.2017 10:14&departure_flight_info[from_name]=Punta Cana (PUJ)&departure_flight_info[to_name]=Lima (LIM)&departure_flight_info[time]=1498804200¤cy_code=USD&destination_id=20&suppl_attr_qties[10311][4731]=1&suppl_attr_qties[5996][3820]=2&suppl_attr_qties[5992][4388]=1&suppl_attr_qties[5991][3818]=1&currency_code=USD",
           "protocol": "https",
@@ -586,293 +498,235 @@
           "query": [
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "session_id",
-              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
-              "equals": true
+              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "key": "airport_code",
-              "value": "PUJ",
-              "equals": true
+              "value": "PUJ"
             },
             {
               "key": "hotel_id",
-              "value": "417",
-              "equals": true
+              "value": "417"
             },
             {
               "key": "transfer_id",
-              "value": "1744",
-              "equals": true
+              "value": "1744"
             },
             {
               "key": "service_type",
-              "value": "round",
-              "equals": true
+              "value": "round"
             },
             {
               "key": "arrival_date",
-              "value": "2017-08-22",
-              "equals": true
+              "value": "2017-08-22"
             },
             {
               "key": "departure_date",
-              "value": "2017-08-28",
-              "equals": true
+              "value": "2017-08-28"
             },
             {
               "key": "attqty1",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "attqty2",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "attqty3",
-              "value": "0",
-              "equals": true
+              "value": "0"
             },
             {
               "key": "arrival_airline_id",
-              "value": "AA",
-              "equals": true
+              "value": "AA"
             },
             {
               "key": "arrival_flight_num",
-              "value": "158",
-              "equals": true
+              "value": "158"
             },
             {
               "key": "arrival_flight_info[flight_origin_code]",
-              "value": "DFW",
-              "equals": true
+              "value": "DFW"
             },
             {
               "key": "arrival_flight_info[flight_origin_name]",
-              "value": "DALLAS-FORT WORTH",
-              "equals": true
+              "value": "DALLAS-FORT WORTH"
             },
             {
               "key": "arrival_flight_info[flight_destination_code]",
-              "value": "LIR",
-              "equals": true
+              "value": "LIR"
             },
             {
               "key": "arrival_flight_info[flight_destination_name]",
-              "value": "Liberia",
-              "equals": true
+              "value": "Liberia"
             },
             {
               "key": "arrival_flight_info[flight_departure_date]",
-              "value": "22.07.2017",
-              "equals": true
+              "value": "22.07.2017"
             },
             {
               "key": "arrival_flight_info[flight_arrival_date]",
-              "value": "22.07.2017",
-              "equals": true
+              "value": "22.07.2017"
             },
             {
               "key": "arrival_flight_info[flight_airline_code]",
-              "value": "AA",
-              "equals": true
+              "value": "AA"
             },
             {
               "key": "arrival_flight_info[flight_airline_name]",
-              "value": "American Airlines",
-              "equals": true
+              "value": "American Airlines"
             },
             {
               "key": "arrival_flight_info[flight_flight_num]",
-              "value": "2451",
-              "equals": true
+              "value": "2451"
             },
             {
               "key": "arrival_flight_info[flight_scheduled_time]",
-              "value": "13:57:00",
-              "equals": true
+              "value": "13:57:00"
             },
             {
               "key": "arrival_flight_info[flight_actual_time]",
-              "value": "13:57:00",
-              "equals": true
+              "value": "13:57:00"
             },
             {
               "key": "arrival_flight_info[flight_terminal]",
-              "value": "3",
-              "equals": true
+              "value": "3"
             },
             {
               "key": "arrival_flight_info[flight_status]",
-              "value": "Scheduled",
-              "equals": true
+              "value": "Scheduled"
             },
             {
               "key": "arrival_flight_info[flight_equip]",
-              "value": "738",
-              "equals": true
+              "value": "738"
             },
             {
               "key": "arrival_flight_info[flight_lastaccess]",
-              "value": "07.06.2017 10:14",
-              "equals": true
+              "value": "07.06.2017 10:14"
             },
             {
               "key": "arrival_flight_info[from_name]",
-              "value": "Dallas-Fort Worth (DFW)",
-              "equals": true
+              "value": "Dallas-Fort Worth (DFW)"
             },
             {
               "key": "arrival_flight_info[to_name]",
-              "value": "Liberia (LIR)",
-              "equals": true
+              "value": "Liberia (LIR)"
             },
             {
               "key": "arrival_flight_info[time]",
-              "value": "1499540220",
-              "equals": true
+              "value": "1499540220"
             },
             {
               "key": "departure_airline_id",
-              "value": "LA",
-              "equals": true
+              "value": "LA"
             },
             {
               "key": "departure_flight_num",
-              "value": "2451",
-              "equals": true
+              "value": "2451"
             },
             {
               "key": "departure_pickup_time",
-              "value": "83400",
-              "equals": true
+              "value": "83400"
             },
             {
               "key": "departure_flight_info[flight_origin_code]",
-              "value": "PUJ",
-              "equals": true
+              "value": "PUJ"
             },
             {
               "key": "departure_flight_info[flight_origin_name]",
-              "value": "PUNTA CANA",
-              "equals": true
+              "value": "PUNTA CANA"
             },
             {
               "key": "departure_flight_info[flight_destination_code]",
-              "value": "LIM",
-              "equals": true
+              "value": "LIM"
             },
             {
               "key": "departure_flight_info[flight_destination_name]",
-              "value": "LIMA",
-              "equals": true
+              "value": "LIMA"
             },
             {
               "key": "departure_flight_info[flight_departure_date]",
-              "value": "28.07.2017",
-              "equals": true
+              "value": "28.07.2017"
             },
             {
               "key": "departure_flight_info[flight_arrival_date]",
-              "value": "28.07.2017",
-              "equals": true
+              "value": "28.07.2017"
             },
             {
               "key": "departure_flight_info[flight_airline_code]",
-              "value": "LA",
-              "equals": true
+              "value": "LA"
             },
             {
               "key": "departure_flight_info[flight_airline_name]",
-              "value": "American Airlines",
-              "equals": true
+              "value": "American Airlines"
             },
             {
               "key": "departure_flight_info[flight_flight_num]",
-              "value": "2451",
-              "equals": true
+              "value": "2451"
             },
             {
               "key": "departure_flight_info[flight_scheduled_time]",
-              "value": "01:30:00",
-              "equals": true
+              "value": "01:30:00"
             },
             {
               "key": "departure_flight_info[flight_actual_time]",
-              "value": "01:30:00",
-              "equals": true
+              "value": "01:30:00"
             },
             {
               "key": "departure_flight_info[flight_terminal]",
-              "value": "B",
-              "equals": true
+              "value": "B"
             },
             {
               "key": "departure_flight_info[flight_status]",
-              "value": "Scheduled",
-              "equals": true
+              "value": "Scheduled"
             },
             {
               "key": "departure_flight_info[flight_equip]",
-              "value": "319",
-              "equals": true
+              "value": "319"
             },
             {
               "key": "departure_flight_info[flight_lastaccess]",
-              "value": "07.06.2017 10:14",
-              "equals": true
+              "value": "07.06.2017 10:14"
             },
             {
               "key": "departure_flight_info[from_name]",
-              "value": "Punta Cana (PUJ)",
-              "equals": true
+              "value": "Punta Cana (PUJ)"
             },
             {
               "key": "departure_flight_info[to_name]",
-              "value": "Lima (LIM)",
-              "equals": true
+              "value": "Lima (LIM)"
             },
             {
               "key": "departure_flight_info[time]",
-              "value": "1498804200¤cy_code=USD",
-              "equals": true
+              "value": "1498804200¤cy_code=USD"
             },
             {
               "key": "destination_id",
-              "value": "20",
-              "equals": true
+              "value": "20"
             },
             {
               "key": "suppl_attr_qties[10311][4731]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "suppl_attr_qties[5996][3820]",
-              "value": "2",
-              "equals": true
+              "value": "2"
             },
             {
               "key": "suppl_attr_qties[5992][4388]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "suppl_attr_qties[5991][3818]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "currency_code",
-              "value": "USD",
-              "equals": true
+              "value": "USD"
             }
           ]
         }
@@ -880,8 +734,8 @@
       "response": []
     },
     {
-      "_postman_id": "367649-b71ec6fe-8541-5268-3252-e458401fa677",
       "name": "/transfers/getTransferItemsAndSupplements",
+      "_postman_id": "367649-b71ec6fe-8541-5268-3252-e458401fa677",
       "request": {
         "method": "GET",
         "header": [
@@ -894,7 +748,10 @@
             "value": "http://www.amstardmc.com"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/transfers/getTransferItemsAndSupplements/?user_id=90b3a2f5cd5c6010c069027a72dae5f9\t&airport_code=CUN&hotel_id=173&transfer_id=1273&service_type=round&nattr1=2&arrival_date=2017-12-30&departure_date=2018-01-05&currency_code=USD&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
           "protocol": "https",
@@ -912,59 +769,48 @@
           "query": [
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9\t",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9\t"
             },
             {
               "key": "airport_code",
-              "value": "CUN",
-              "equals": true
+              "value": "CUN"
             },
             {
               "key": "hotel_id",
-              "value": "173",
-              "equals": true
+              "value": "173"
             },
             {
               "key": "category_id",
               "value": "7e9debef8521917efc5b9db4e9e0006f",
-              "equals": true,
               "disabled": true
             },
             {
               "key": "transfer_id",
-              "value": "1273",
-              "equals": true
+              "value": "1273"
             },
             {
               "key": "service_type",
-              "value": "round",
-              "equals": true
+              "value": "round"
             },
             {
               "key": "nattr1",
-              "value": "2",
-              "equals": true
+              "value": "2"
             },
             {
               "key": "arrival_date",
-              "value": "2017-12-30",
-              "equals": true
+              "value": "2017-12-30"
             },
             {
               "key": "departure_date",
-              "value": "2018-01-05",
-              "equals": true
+              "value": "2018-01-05"
             },
             {
               "key": "currency_code",
-              "value": "USD",
-              "equals": true
+              "value": "USD"
             },
             {
               "key": "session_id",
-              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
-              "equals": true
+              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             }
           ]
         }
@@ -972,8 +818,8 @@
       "response": []
     },
     {
-      "_postman_id": "367649-e3c594de-6d4e-581d-d310-be1d5a1ad414",
       "name": "/transfers/getAirlines",
+      "_postman_id": "367649-e3c594de-6d4e-581d-d310-be1d5a1ad414",
       "request": {
         "method": "GET",
         "header": [
@@ -990,9 +836,12 @@
             "value": "http://www.amstardmc.com"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
-          "raw": "https://cert.amstardmc.com/api/transfers/getAirlines/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&airport_code=cun&service_type=round&arrival_date=2017-09-01&departure_date=2017-09-01&destination_id=20",
+          "raw": "https://cert.amstardmc.com/api/transfers/getAirlines/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&airport_code=cun&service_type=round&arrival_date=2017-09-01&departure_date=2017-09-01&destination_id=20\n",
           "protocol": "https",
           "host": [
             "cert",
@@ -1008,33 +857,27 @@
           "query": [
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "airport_code",
-              "value": "cun",
-              "equals": true
+              "value": "cun"
             },
             {
               "key": "service_type",
-              "value": "round",
-              "equals": true
+              "value": "round"
             },
             {
               "key": "arrival_date",
-              "value": "2017-09-01",
-              "equals": true
+              "value": "2017-09-01"
             },
             {
               "key": "departure_date",
-              "value": "2017-09-01",
-              "equals": true
+              "value": "2017-09-01"
             },
             {
               "key": "destination_id",
-              "value": "20\n",
-              "equals": true
+              "value": "20\n"
             }
           ]
         }
@@ -1042,8 +885,8 @@
       "response": []
     },
     {
-      "_postman_id": "367649-d91e2d66-4802-5ff6-24c0-0293847dbf6e",
       "name": "/transfers/getFlights",
+      "_postman_id": "367649-d91e2d66-4802-5ff6-24c0-0293847dbf6e",
       "request": {
         "method": "GET",
         "header": [
@@ -1060,7 +903,10 @@
             "value": "http://www.amstardmc.com"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/transfers/getFlights/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&airport_code=cun&service_type=round&arrival_date=2017-09-01&arrival_airline_id=Y4&departure_date=2017-09-01&departure_airline_id=AA&destination_id=20",
           "protocol": "https",
@@ -1078,43 +924,35 @@
           "query": [
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "airport_code",
-              "value": "cun",
-              "equals": true
+              "value": "cun"
             },
             {
               "key": "service_type",
-              "value": "round",
-              "equals": true
+              "value": "round"
             },
             {
               "key": "arrival_date",
-              "value": "2017-09-01",
-              "equals": true
+              "value": "2017-09-01"
             },
             {
               "key": "arrival_airline_id",
-              "value": "Y4",
-              "equals": true
+              "value": "Y4"
             },
             {
               "key": "departure_date",
-              "value": "2017-09-01",
-              "equals": true
+              "value": "2017-09-01"
             },
             {
               "key": "departure_airline_id",
-              "value": "AA",
-              "equals": true
+              "value": "AA"
             },
             {
               "key": "destination_id",
-              "value": "20",
-              "equals": true
+              "value": "20"
             }
           ]
         }
@@ -1122,14 +960,17 @@
       "response": []
     },
     {
-      "_postman_id": "367649-99f1839a-bb79-2549-c43d-10879c5b8e24",
       "name": "/transfers/getTransfersList",
+      "_postman_id": "367649-99f1839a-bb79-2549-c43d-10879c5b8e24",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
-          "raw": "https://cert.amstardmc.com/api/transfers/getTransfersList/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e&airport_code=cun&destination_id=20",
+          "raw": "https://cert.amstardmc.com/api/transfers/getTransfersList/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e&airport_code=cun&destination_id=20\n",
           "protocol": "https",
           "host": [
             "cert",
@@ -1145,23 +986,19 @@
           "query": [
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "session_id",
-              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
-              "equals": true
+              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "key": "airport_code",
-              "value": "cun",
-              "equals": true
+              "value": "cun"
             },
             {
               "key": "destination_id",
-              "value": "20\n",
-              "equals": true
+              "value": "20\n"
             }
           ]
         }
@@ -1169,12 +1006,15 @@
       "response": []
     },
     {
-      "_postman_id": "367649-f0be4783-5625-40f8-44f5-81dc24772af7",
       "name": "/tours/getTours",
+      "_postman_id": "367649-f0be4783-5625-40f8-44f5-81dc24772af7",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/tours/getTours/?api_version=1.0&user_id=90b3a2f5cd5c6010c069027a72dae5f9&product_ids=1285,1500,2109,1799,4918,1670&session_id=24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1",
           "protocol": "https",
@@ -1192,23 +1032,19 @@
           "query": [
             {
               "key": "api_version",
-              "value": "1.0",
-              "equals": true
+              "value": "1.0"
             },
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "product_ids",
-              "value": "1285,1500,2109,1799,4918,1670",
-              "equals": true
+              "value": "1285,1500,2109,1799,4918,1670"
             },
             {
               "key": "session_id",
-              "value": "24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1",
-              "equals": true
+              "value": "24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1"
             }
           ]
         }
@@ -1216,8 +1052,8 @@
       "response": []
     },
     {
-      "_postman_id": "367649-00eacd17-a980-6a76-9574-375f80f3ebb6",
       "name": "/cart/getCart",
+      "_postman_id": "367649-00eacd17-a980-6a76-9574-375f80f3ebb6",
       "request": {
         "method": "GET",
         "header": [
@@ -1230,7 +1066,10 @@
             "value": "http://www.amstardmc.com"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/cart/getCart/?user_id=79ed3c92725ffaf6cfb50de5c1e16723&session_id=aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
           "protocol": "https",
@@ -1248,13 +1087,11 @@
           "query": [
             {
               "key": "user_id",
-              "value": "79ed3c92725ffaf6cfb50de5c1e16723",
-              "equals": true
+              "value": "79ed3c92725ffaf6cfb50de5c1e16723"
             },
             {
               "key": "session_id",
-              "value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890",
-              "equals": true
+              "value": "aae5827cf736a5cd18078ea011f06edd16157ce218e1b14ebce939d24e0e0890"
             }
           ]
         }
@@ -1262,14 +1099,17 @@
       "response": []
     },
     {
-      "_postman_id": "367649-24c14bc8-1b39-9f74-b380-1ce8e233f099",
       "name": "/cart/emptyCart",
+      "_postman_id": "367649-24c14bc8-1b39-9f74-b380-1ce8e233f099",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
-          "raw": "https://cert.amstardmc.com/api/cart/emptyCart/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
+          "raw": "https://cert.amstardmc.com/api/cart/emptyCart/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e\n",
           "protocol": "https",
           "host": [
             "cert",
@@ -1285,13 +1125,11 @@
           "query": [
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "session_id",
-              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e\n",
-              "equals": true
+              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e\n"
             }
           ]
         }
@@ -1299,12 +1137,15 @@
       "response": []
     },
     {
-      "_postman_id": "367649-0df54403-60a6-7189-746b-733149734d06",
       "name": "/tours/getToursList",
+      "_postman_id": "367649-0df54403-60a6-7189-746b-733149734d06",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/tours/getToursList/?api_version=1.0&user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1&destination_id=20",
           "protocol": "https",
@@ -1322,29 +1163,24 @@
           "query": [
             {
               "key": "api_version",
-              "value": "1.0",
-              "equals": true
+              "value": "1.0"
             },
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "product_ids",
               "value": "1285,1500,2109,1799,4918,1670",
-              "equals": true,
               "disabled": true
             },
             {
               "key": "session_id",
-              "value": "24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1",
-              "equals": true
+              "value": "24f2b84ba16b1e41d52b6662d4efa9a9b6b9645846ed2b6fcc4f02881e4803a1"
             },
             {
               "key": "destination_id",
-              "value": "20",
-              "equals": true
+              "value": "20"
             }
           ]
         }
@@ -1352,14 +1188,17 @@
       "response": []
     },
     {
-      "_postman_id": "367649-e00795b6-347b-4d82-a55f-a56ae01c1ceb",
       "name": "/tours/updateItemTotal",
+      "_postman_id": "367649-e00795b6-347b-4d82-a55f-a56ae01c1ceb",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
-          "raw": "https://cert.amstardmc.com/api/tours/updateItemTotal/?api_version=1.0&user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e&destination_id=20&hotel_id=51&product_id=1285&product_name=Coco Bongo&service_date=2017-03-29&pickup_id=355412&duration_time=18000&attr_qties[1286][161]=2&attr_qties[1286][162]=1&attr_qties[1286][164]=1&suppl_attr_qties[2861][1239]=1&currency_code=USD",
+          "raw": "https://cert.amstardmc.com/api/tours/updateItemTotal/?api_version=1.0&user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e&destination_id=20&hotel_id=51&product_id=1285&product_name=Coco Bongo&service_date=2017-03-29&pickup_id=355412&duration_time=18000&attr_qties[1286][161]=2&attr_qties[1286][162]=1&attr_qties[1286][164]=1&suppl_attr_qties[2861][1239]=1&currency_code=USD\n",
           "protocol": "https",
           "host": [
             "cert",
@@ -1375,83 +1214,67 @@
           "query": [
             {
               "key": "api_version",
-              "value": "1.0",
-              "equals": true
+              "value": "1.0"
             },
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "session_id",
-              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
-              "equals": true
+              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "key": "destination_id",
-              "value": "20",
-              "equals": true
+              "value": "20"
             },
             {
               "key": "hotel_id",
-              "value": "51",
-              "equals": true
+              "value": "51"
             },
             {
               "key": "product_id",
-              "value": "1285",
-              "equals": true
+              "value": "1285"
             },
             {
               "key": "product_name",
-              "value": "Coco Bongo",
-              "equals": true
+              "value": "Coco Bongo"
             },
             {
               "key": "service_date",
-              "value": "2017-03-29",
-              "equals": true
+              "value": "2017-03-29"
             },
             {
               "key": "pickup_id",
-              "value": "355412",
-              "equals": true
+              "value": "355412"
             },
             {
               "key": "duration_time",
-              "value": "18000",
-              "equals": true
+              "value": "18000"
             },
             {
               "key": "attr_qties[1286][161]",
-              "value": "2",
-              "equals": true
+              "value": "2"
             },
             {
               "key": "attr_qties[1286][162]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "attr_qties[1286][164]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "suppl_attr_qties[2861][1239]",
-              "value": "1",
-              "equals": true
+              "value": "1"
             },
             {
               "key": "currency_code",
-              "value": "USD\n",
-              "equals": true
+              "value": "USD\n"
             },
             {
               "key": "",
               "value": "",
-              "equals": true,
               "disabled": true
             }
           ]
@@ -1460,12 +1283,15 @@
       "response": []
     },
     {
-      "_postman_id": "367649-e08a392d-391d-7c18-6cce-38fd1c90fe9f",
       "name": "transfers/getDestinations",
+      "_postman_id": "367649-e08a392d-391d-7c18-6cce-38fd1c90fe9f",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/transfers/getDestinations/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e&site_id=1",
           "protocol": "https",
@@ -1483,18 +1309,15 @@
           "query": [
             {
               "key": "user_id",
-              "value": "90b3a2f5cd5c6010c069027a72dae5f9",
-              "equals": true
+              "value": "90b3a2f5cd5c6010c069027a72dae5f9"
             },
             {
               "key": "session_id",
-              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e",
-              "equals": true
+              "value": "1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e"
             },
             {
               "key": "site_id",
-              "value": "1",
-              "equals": true
+              "value": "1"
             }
           ]
         }
@@ -1502,12 +1325,15 @@
       "response": []
     },
     {
-      "_postman_id": "367649-ea78308e-6bfb-0372-da63-d7c477d7cff3",
       "name": "transfers/getHotels",
+      "_postman_id": "367649-ea78308e-6bfb-0372-da63-d7c477d7cff3",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://cert.amstardmc.com/api/transfers/getHotels/?user_id=90b3a2f5cd5c6010c069027a72dae5f9&session_id=1d3e1202f0bbfcb19f1c0fabbd6deeab9dc44dd01f1989ed3b749be44325dc7e&site_id=1",
           "protocol": "https",
