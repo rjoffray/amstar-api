@@ -124,7 +124,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -141,7 +141,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -362,7 +362,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -918,7 +918,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -935,7 +935,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -1088,7 +1088,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -1156,7 +1156,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -1343,7 +1343,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -1360,7 +1360,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -1411,7 +1411,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -1428,7 +1428,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -1513,7 +1513,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -1581,7 +1581,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -2472,7 +2472,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -2489,7 +2489,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -2744,7 +2744,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -2761,7 +2761,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -2829,7 +2829,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -3101,7 +3101,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -3118,7 +3118,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -3186,7 +3186,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -3794,7 +3794,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -3811,7 +3811,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -4053,7 +4053,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -4070,7 +4070,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -4297,7 +4297,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -4331,7 +4331,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
@@ -5279,7 +5279,7 @@
         {
           "ParamFormat": "Query",
           "Optional": false,
-          "Type": "DateTime",
+          "Type": "String",
           "IsSdlNativeType": true,
           "Constant": false,
           "IsStream": false,
