@@ -5801,6 +5801,7 @@
     "ReturnCompleteHttpResponse": false,
     "ThrowForHttpErrorStatusCodes": true,
     "GenerateModels": true,
+    "GenerateEnums": true,
     "GenerateExceptions": true,
     "ResponseMapping": {
       "Type": "Simple"
