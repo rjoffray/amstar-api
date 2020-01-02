@@ -17,7 +17,6 @@
     ],
     "Parameters": []
   },
-  "Description": "TODO: Add Description",
   "Version": "1.0",
   "Contact": {},
   "AdditionalHeaders": [],
@@ -31,7 +30,6 @@
   "Endpoints": [
     {
       "Name": "/cart/addTransfer - One Way Arrival",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -636,7 +634,6 @@
       "TestCases": [
         {
           "Name": "/cart/addTransfer - One Way Arrival",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -821,11 +818,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/cart/addTransfer - Round Trip",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -1991,7 +1989,6 @@
       "TestCases": [
         {
           "Name": "/cart/addTransfer - Round Trip",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -2341,11 +2338,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "cart/addTransfer/ - with Suppliments",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -3358,7 +3356,6 @@
       "TestCases": [
         {
           "Name": "cart/addTransfer/ - with Suppliments",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -3663,11 +3660,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/transfers/getTransferItemsAndSupplements",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -3898,7 +3896,6 @@
       "TestCases": [
         {
           "Name": "/transfers/getTransferItemsAndSupplements",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -3973,11 +3970,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/transfers/getAirlines",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -4157,7 +4155,6 @@
       "TestCases": [
         {
           "Name": "/transfers/getAirlines",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4217,11 +4214,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/transfers/getFlights",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -4435,7 +4433,6 @@
       "TestCases": [
         {
           "Name": "/transfers/getFlights",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4505,11 +4502,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/transfers/getTransfersList",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -4604,7 +4602,6 @@
       "TestCases": [
         {
           "Name": "/transfers/getTransfersList",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4639,11 +4636,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/tours/getTours",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -4738,7 +4736,6 @@
       "TestCases": [
         {
           "Name": "/tours/getTours",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4773,11 +4770,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/cart/getCart",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -4872,7 +4870,6 @@
       "TestCases": [
         {
           "Name": "/cart/getCart",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4907,11 +4904,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/cart/emptyCart",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -4972,7 +4970,6 @@
       "TestCases": [
         {
           "Name": "/cart/emptyCart",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -4997,11 +4994,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/tours/getToursList",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -5096,7 +5094,6 @@
       "TestCases": [
         {
           "Name": "/tours/getToursList",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -5131,11 +5128,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "/tours/updateItemTotal",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -5417,7 +5415,6 @@
       "TestCases": [
         {
           "Name": "/tours/updateItemTotal",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -5507,11 +5504,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "transfers/getDestinations",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -5589,7 +5587,6 @@
       "TestCases": [
         {
           "Name": "transfers/getDestinations",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -5619,11 +5616,12 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     },
     {
       "Name": "transfers/getHotels",
-      "Description": "TODO: Add Description",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
@@ -5701,7 +5699,6 @@
       "TestCases": [
         {
           "Name": "transfers/getHotels",
-          "Description": "TODO: Add Description",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [
@@ -5731,7 +5728,9 @@
         }
       ],
       "WrapBodyInObject": false,
-      "Deprecated": false
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false
     }
   ],
   "EndpointGroups": [
