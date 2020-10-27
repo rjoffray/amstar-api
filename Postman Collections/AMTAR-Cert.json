@@ -5852,6 +5852,7 @@
     "WrapResponseFieldInWsdl": true,
     "AllowEmptyTypeAttributesInXsd": false,
     "WrapInputOutputTypesInElementInXsd": false,
-    "AddRefSiblingDataInAllOfSchema": false
+    "AddRefSiblingDataInAllOfSchema": false,
+    "EncodeUrlParamsInPostman": true
   }
 }
